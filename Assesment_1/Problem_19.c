@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main() 
 {
-    int num, result, tens;
+    int num, result,n;
     printf("Enter a number: ");
     scanf("%d", &num);
+    n=(num/10)%10;
     result = num - 5;
-    tens = (result / 10) % 10; 
-    (tens % 2) && printf(" %d\n", result);
+    (n %2==0) && printf(" %d\n", num) ;
+    (n %2!=0) && printf(" %d\n", result);
     return 0;
 }

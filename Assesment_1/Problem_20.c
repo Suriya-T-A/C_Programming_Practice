@@ -1,12 +1,12 @@
-#include <stdio.h>
-
-int main() 
+#include<stdio.h>
+int main()
 {
-    int num, result, sum;
-    printf("Enter a two-digit number: ");
-    scanf("%d", &num);
-    result = num - 5;
-    sum = (result / 10) + (result % 10);  
-    (sum % 2) && printf(" %d\n", result);
+    int n,sum,result;
+    printf("enter a 2 digit number:");
+    scanf("%d",&n);
+    result=n-5;
+    sum= (n%10)+(n/10);
+    (sum%2!=0) && (printf("%d \n",result));
+    (sum%2==0) && (printf("%d \n",n));
     return 0;
 }

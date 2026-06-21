@@ -1,15 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int num;
+    int num,d1,d2;
     scanf("%d",&num);
-    if(num>50)
+    if(num<10||num>99)
+    {
+        return 0;
+    }
+    d1=num/10;
+    d2=num%10;
+    if(d1==d2)
     {
         printf("success");
     }
-    else 
+    else
     {
-        printf("failure");
+         printf("failure");
     }
     return 0;
 }

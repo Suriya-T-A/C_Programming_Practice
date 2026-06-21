@@ -1,23 +1,23 @@
-
-
 #include <stdio.h>
 int main()
 {
-    int num,d1,d2;
+    int num,a,b,c,d;
     scanf("%d",&num);
-    if(num<10||num>99)
+    if(num<1000||num>9999)
     {
         return 0;
     }
-    d1=num/10;
-    d2=num%10;
-    if(d1==d2)
+    a=num/1000;
+    b=(num/100)%10;
+    c=(num/10)%10;
+    d=num%10;
+    if(a==c||b==d)
     {
         printf("success");
     }
-    else
+    else 
     {
-         printf("failure");
+        printf("failure");
     }
     return 0;
 }

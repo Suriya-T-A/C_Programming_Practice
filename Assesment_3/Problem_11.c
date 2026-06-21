@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 int main()
 {
@@ -10,7 +11,7 @@ int main()
     }
     d1=num/10;
     d2=num%10;
-    if(d1>d2)
+    if(d1>=d2)
     {
         printf("success");
     }

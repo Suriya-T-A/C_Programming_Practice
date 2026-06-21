@@ -3,7 +3,7 @@ int main()
 {
     int num;
     scanf("%d",&num);
-    if(num<=50)
+    if(num<50)
     {
         printf("success");
     }

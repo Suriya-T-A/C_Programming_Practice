@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int disp_count_HCF2(int,int );
 int main()
 {
@@ -10,6 +11,7 @@ int main()
     s=disp_count_HCF2(x,y);
     printf("%d",s);
 }
+
 int disp_count_HCF2(int x,int y)
 {
     int z=0;

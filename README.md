@@ -32,6 +32,7 @@ This repository documents my journey of learning C programming through open-sour
 ## Repository Structure
 
 C-Programming-Practice/
+
 ├── Basics/
 ├── Conditional_Statements/
 ├── Loops/

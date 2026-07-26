@@ -1,6 +1,3 @@
-/*Question:
-
-Pass an integer array to a function and increment each array element inside the function.*/
 #include <stdio.h>
 int inc(int* a,int n){
     for (int i =0 ; i<n;i++){

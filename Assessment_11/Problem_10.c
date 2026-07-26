@@ -1,8 +1,3 @@
-/*Question:
-Write a function to concatenate two strings to another.
-
-Function Name:
-strcon(src1, src2, dst)*/
 #include <stdio.h>
 #include <string.h>
 void strcon(char * src1,char * src2, char *dst){

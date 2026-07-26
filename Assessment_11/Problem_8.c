@@ -1,10 +1,4 @@
-/*Question:
-Write a function to compare two strings.
-Print Success or Failure.
-
-Function Name:
-strcmp(src, dst)*/
-#include <stdio.h>
+#include<stdio.h>
 #include <string.h>
 int strcomp(char* src,char* dst){
     int i=0 , flag =1;

@@ -1,7 +1,3 @@
-/*Question:
-Write a funtion to copy a string to another
-strcopy(src,dst)*/
-
 #include <stdio.h>
 #include <string.h>
 void strcopy(char* src , char* dst){

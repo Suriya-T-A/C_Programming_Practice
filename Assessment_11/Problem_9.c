@@ -1,6 +1,3 @@
-/*Question: 
-Write a function to concate two integer array into single array 
-Function name : intcon(src1,size1,src2,size2,dst)*/
 #include <stdio.h>
 void intcon(int* src1,int size1,int* src2,int size2,int* dst){
     int i = 0;

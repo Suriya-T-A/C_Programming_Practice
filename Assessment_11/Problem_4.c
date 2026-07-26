@@ -1,8 +1,3 @@
-/*Question: Write a function to find the two-digit odd numbers whose sum of digits is 7. Print the results in main function.
-
-Function Name: find_2digit_odd_sum7
-
-Answer: 25, 43, 61*/
 #include <stdio.h>
 int find_2digit_odd_sum7(int* y){
     int temp = (*y )/10;
